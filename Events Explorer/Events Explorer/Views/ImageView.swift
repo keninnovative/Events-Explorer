@@ -31,17 +31,20 @@ class ImageLoader: ObservableObject {
 struct ImageView: View {
     @ObservedObject var imageLoader:ImageLoader
     @State var image:UIImage = UIImage()
+    private var width:CGFloat
+    private var height:CGFloat
 
-    init(withURL url:String) {
+    init(withURL url:String, width:CGFloat = 80, height:CGFloat = 80) {
+        self.width = width
+        self.height = height
         imageLoader = ImageLoader(urlString:url)
     }
 
     var body: some View {
         Image(uiImage: image)
             .resizable()
-            .aspectRatio(contentMode: .fill)
-            .frame(width:80, height:80)
-            .cornerRadius(8)
+            .frame(width: self.width, height: self.height)
+            .aspectRatio(contentMode: .fit)
             .onReceive(imageLoader.didChange) { data in
                 self.image = UIImage(data: data) ?? UIImage()
             }

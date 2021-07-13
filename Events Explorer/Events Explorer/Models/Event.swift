@@ -6,7 +6,7 @@
 //
 import Foundation
 
-struct Event: Identifiable, Decodable {
+struct Event: Identifiable, Codable {
     let id: Int
     let title: String
     let datetimeLocal: Date
@@ -14,12 +14,12 @@ struct Event: Identifiable, Decodable {
     let performers: [Performer]?
 }
 
-struct Venue: Identifiable, Decodable {
+struct Venue: Identifiable, Codable {
     let id: Int
     let displayLocation: String
 }
 
-struct Performer: Identifiable, Decodable {
+struct Performer: Identifiable, Codable {
     let id: Int
     let name: String
     let image: String?

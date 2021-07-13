@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct Events_ExplorerApp: App {
+
     var body: some Scene {
         WindowGroup {
             EventsView()
