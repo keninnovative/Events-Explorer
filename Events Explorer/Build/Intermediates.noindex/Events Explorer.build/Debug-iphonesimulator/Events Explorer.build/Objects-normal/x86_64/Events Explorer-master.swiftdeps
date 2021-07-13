@@ -1,0 +1,19 @@
+version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
+options: "b1ddb8eeaa421e135749f924158ef4ce"
+build_time: [1626150206, 820178000]
+inputs:
+  "/Users/zebra/Zla/Dev/Tests/ken_git_space/Events-Explorer/Events Explorer/Events Explorer/Shared/Extensions/Color+Custom.swift": [1626149675, 389536475]
+  "/Users/zebra/Zla/Dev/Tests/ken_git_space/Events-Explorer/Events Explorer/Events Explorer/Views/ImageView.swift": [1626150206, 657759083]
+  "/Users/zebra/Zla/Dev/Tests/ken_git_space/Events-Explorer/Events Explorer/Events Explorer/HTTP/SessionManager_Protocol.swift": [1613057181, 0]
+  "/Users/zebra/Zla/Dev/Tests/ken_git_space/Events-Explorer/Events Explorer/Events Explorer/Models/Event.swift": [1626141984, 567601702]
+  "/Users/zebra/Zla/Dev/Tests/ken_git_space/Events-Explorer/Events Explorer/Events Explorer/Views/EventsView.swift": [1626150125, 389879194]
+  "/Users/zebra/Zla/Dev/Tests/ken_git_space/Events-Explorer/Events Explorer/Events Explorer/Shared/Extensions/Date+Formatted.swift": [1626117896, 66212773]
+  "/Users/zebra/Zla/Dev/Tests/ken_git_space/Events-Explorer/Events Explorer/Events Explorer/HTTP/HTTPResponseHandler.swift": [1613057181, 0]
+  "/Users/zebra/Zla/Dev/Tests/ken_git_space/Events-Explorer/Events Explorer/Events Explorer/Views/EventRowView.swift": [1626150206, 684648771]
+  "/Users/zebra/Zla/Dev/Tests/ken_git_space/Events-Explorer/Events Explorer/Events Explorer/HTTP/HTTPError.swift": [1613057181, 0]
+  "/Users/zebra/Zla/Dev/Tests/ken_git_space/Events-Explorer/Events Explorer/Events Explorer/HTTP/HTTPClient.swift": [1613057181, 0]
+  "/Users/zebra/Zla/Dev/Tests/ken_git_space/Events-Explorer/Events Explorer/Events Explorer/Views/SearchBarView.swift": [1626150012, 625606716]
+  "/Users/zebra/Zla/Dev/Tests/ken_git_space/Events-Explorer/Events Explorer/Events Explorer/HTTP/HTTPRequest.swift": [1613057181, 0]
+  "/Users/zebra/Zla/Dev/Tests/ken_git_space/Events-Explorer/Events Explorer/Events Explorer/Views/EventsViewModel.swift": [1626147033, 439590729]
+  "/Users/zebra/Zla/Dev/Tests/ken_git_space/Events-Explorer/Events Explorer/Events Explorer/Events_ExplorerApp.swift": [1626117550, 693666154]
+  "/Users/zebra/Zla/Dev/Tests/ken_git_space/Events-Explorer/Events Explorer/Events Explorer/Models/WebService.swift": [1626142088, 137101361]
